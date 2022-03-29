@@ -1,6 +1,6 @@
 # Monaparty Application Layer Proposal
 
-Personal repository for application-level proposal to monaparty
+Personal repository for an application-level proposal for Monaparty
 
 | ID  | English                                         | Japanese                                  | Status |
 | --- | ----------------------------------------------- | ----------------------------------------- | ------ |
