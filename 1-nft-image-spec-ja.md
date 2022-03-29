@@ -1,4 +1,5 @@
 <pre>
+id:1 
 title: NFT Image Specification
 author: Ryota Uno (@palon7)
 status: Draft
