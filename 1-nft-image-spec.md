@@ -7,7 +7,7 @@ type: Standards Track
 created: 2021-03-29
 </pre>
 
-# NFT Image Specification in Monaparty
+# NFT Image Specification
 
 ## Notice
 
