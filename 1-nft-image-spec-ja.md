@@ -41,20 +41,25 @@ NFT アートの人気に見られるように、画像と紐付くトークン�
 
 ```json
 {
-  "title": "Monaparty Image NFT Metadata",
   "type": "object",
   "properties": {
-    "name": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
     "image": {
-      "type": "string"
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "cid": {
+          "type": "string"
+        }
+      },
+      "required": ["name", "cid"]
     }
   },
-  "required": ["name", "image"]
+  "required": ["image"]
 }
 ```
 
@@ -62,9 +67,11 @@ NFT アートの人気に見られるように、画像と紐付くトークン�
 
 ```json
 {
-  "name": "モナコインちゃん",
-  "description": "モナコインちゃんのNFTです。",
-  "image": "bafkreifzjut3te2nhyekklss27nh3k72ysco7y32koao5eei66wof36n5e"
+  "image": {
+    "name": "Monacoin-chan",
+    "desc": "This is the NFT of Monacoin-chan.",
+    "cid": "bafkreifzjut3te2nhyekklss27nh3k72ysco7y32koao5eei66wof36n5e"
+  }
 }
 ```
 
@@ -72,7 +79,7 @@ NFT アートの人気に見られるように、画像と紐付くトークン�
 
 アセットを識別する名前。
 
-### description
+### desc
 
 アセットの説明文。この項目は省略してもよい。 **(OPTIONAL)**
 
