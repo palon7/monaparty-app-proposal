@@ -111,7 +111,7 @@ Since this standard assumes general image files, the MIME-type is limited to `im
 
 ### Losing Files on IPFS
 
-This standard limits the destination of images to storage on IPFS, but there is a high risk that files on IPFS will disappear unless they are correctly pinned.
+This standard limits the destination of images to storage on IPFS, but that files on IPFS will disappear unless they are correctly pinned.
 
 However, the same problem is common to NFTs such as Ethereum, and this risk could occur even when stored outside of IPFS.
 
@@ -131,7 +131,7 @@ The history of the change remains on the chain, but a simple implementation may 
 
 To prevent rewritten images:
 
-- The issuer should transfer the ownership to the burn address in advance to prove that issuer will not rewrite the contents.
+- The issuer should transfer the ownership to the burn address (such as `MMonapartyMMMMMMMMMMMMMMMMMMMUzGgh`) in advance to prove that issuer will not rewrite the contents.
 - The application should search the asset's `issuance` history when referencing image data to ensure that the image in the description has not changed.
 
 ## Copyright
