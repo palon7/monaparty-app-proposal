@@ -1,8 +1,8 @@
 <pre>
-id:1 
+id: 1 
 title: NFT Image Specification
 author: Ryota Uno (@palon7)
-status: Draft
+status: Review
 type: Standards Track
 created: 2021-03-29
 </pre>
@@ -11,7 +11,7 @@ created: 2021-03-29
 
 ## 注意
 
-本提案はドラフト段階です。議論や意見を広く歓迎します。
+本提案はレビュー段階です。議論や意見を広く歓迎します。
 
 ## 概要
 

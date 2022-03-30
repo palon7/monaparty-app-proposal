@@ -2,7 +2,7 @@
 id: 1
 title: NFT Image Specification
 author: Ryota Uno (@palon7)
-status: Draft
+status: Review
 type: Standards Track
 created: 2021-03-29
 </pre>
@@ -11,7 +11,7 @@ created: 2021-03-29
 
 ## Notice
 
-This proposal is in the draft stage. Discussion and feedback are widely welcome.
+This proposal is in the review stage. Discussion and feedback are widely welcome.
 
 ## Abstract
 
