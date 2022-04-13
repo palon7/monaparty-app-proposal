@@ -86,7 +86,7 @@ A description of the asset. This item is OPTIONAL.
 
 ### cid
 
-The cid on the IPFS of the image file is associated with the asset. You SHOULD use CID v1.
+The cid on the IPFS of the image file is associated with the asset. You SHOULD use CID v1 or later.
 
 The MIME type of the image file MUST be `image/*`. You SHOULD use the `image/png`, `image/apng`, `image/jpeg`, or `image/gif` format. For other formats, the application MAY refuse to display the image.
 
