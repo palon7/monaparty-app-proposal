@@ -9,10 +9,6 @@ created: 2021-03-29
 
 # NFT Image Specification
 
-## Notice
-
-This proposal is in the review stage. Discussion and feedback are widely welcome.
-
 ## Abstract
 
 This document proposes a Monaparty standard for metadata using an asset's description.
